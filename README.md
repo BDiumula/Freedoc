@@ -1,24 +1,36 @@
-# README
+# FreeDoc - Réserve ton docteur
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Un concurrent de Doctolib dont on te parle à longueur de ressources.
 
-Things you may want to cover:
 
-* Ruby version
+### Prerequisites
 
-* System dependencies
+Ici nous allons avoir besoin de la gem 'faker' et gem 'table_print'
 
-* Configuration
+```
+gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
+gem 'table_print'
+```
 
-* Database creation
+### Installing
 
-* Database initialization
+N'oubliez pas d'éxécutez la commande bundle install
 
-* How to run the test suite
+```
+bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### Run the program
 
-* Deployment instructions
+Lancez la commande rails console pour pouvoir jouer avec les BDD de Freedoc. 
 
-* ...
+```
+rails console
+
+```
+
+
+
+## Authors
+
+* **Bénédicte Diumula** - *Moussaillonne THP* 
