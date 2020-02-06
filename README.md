@@ -4,7 +4,7 @@ Un concurrent de Doctolib dont on te parle à longueur de ressources.
 
 
 ### Prerequisites
-
+Ici nous utiliserons pour l'application la version de rails _5.2.3_
 Ici nous allons avoir besoin de la gem 'faker' et gem 'table_print'
 
 ```
